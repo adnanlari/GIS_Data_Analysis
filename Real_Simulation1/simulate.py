@@ -76,7 +76,7 @@ if logread is not None:
 						for rs in genread:
 							if len(rs)!=1:
 								if int(rs[0])<=int(row[0]):
-									query_st = "select m_id from sDB1 where m_id= '" + rs[6] + "'"
+									query_st = "select m_id from sDB1 where m_id= '" + rs[6].strip() + "'"
 									res = myclient.query(query_st)
 									res = list(res.get_points(measurement='sDB1'))
 									# print("Query: ",query_st,res)
@@ -87,7 +87,7 @@ if logread is not None:
 											avail_time = avail_time - time_req
 											dc={}
 											dc['slot_no']=row[0]
-											dc['m_id']=rs[6]
+											dc['m_id']=rs[6].strip()
 											dc['m_type']=rs[3]
 											dc['size']=int(rs[7])
 											dc['tile']=rs[1]
@@ -114,7 +114,7 @@ if logread is not None:
 						for rs in colread:
 							if len(rs)!=1:
 								if int(rs[0])<=int(row[0]):
-									query_st = "select m_id from sDB1 where m_id= '" + rs[2] + "'"
+									query_st = "select m_id from sDB1 where m_id= '" + rs[2].strip() + "'"
 									res = myclient.query(query_st)
 									res = list(res.get_points(measurement='sDB1'))
 									# print("Query: ",query_st,res)
@@ -125,7 +125,7 @@ if logread is not None:
 											avail_time = avail_time - time_req
 											dc={}
 											dc['slot_no']=row[0]
-											dc['m_id']=rs[2]
+											dc['m_id']=rs[2].strip()
 											dc['m_type']=rs[3]
 											dc['size']=int(rs[7])
 											dc['tile']=""

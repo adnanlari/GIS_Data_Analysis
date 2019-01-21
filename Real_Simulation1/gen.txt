@@ -1,0 +1,13 @@
+cur_tile 48950_28611Video = 0Audio = 0image = 13diff = 0text = 14Map = 13
+cur_tile 48950_28612Video = 0Audio = 0image = 3diff = 0text = 3Map = 3
+cur_tile 48951_28612Video = 0Audio = 0image = 1diff = 0text = 1Map = 1
+cur_tile 48951_28613Video = 1Audio = 0image = 2diff = 0text = 3Map = 3
+cur_tile 48952_28613Video = 0Audio = 0image = 1diff = 0text = 1Map = 1
+cur_tile 48952_28614Video = 1Audio = 0image = 2diff = 0text = 3Map = 3
+cur_tile 48949_28614Video = 4Audio = 0image = 32diff = 0text = 38Map = 35
+cur_tile 48948_28614Video = 3Audio = 0image = 18diff = 0text = 23Map = 22
+cur_tile 48948_28612Video = 0Audio = 0image = 0diff = 0text = 0Map = 1
+cur_tile 48947_28614Video = 12Audio = 2image = 97diff = 0text = 91Map = 14
+cur_tile 48946_28614Video = 0Audio = 0image = 1diff = 0text = 2Map = 1
+cur_tile 48949_28609Video = 0Audio = 0image = 6diff = 0text = 7Map = 6
+cur_tile 48947_28613Video = 0Audio = 0image = 10diff = 0text = 7Map = 1
