@@ -5,7 +5,7 @@ import json
 from dateutil import parser
 import os
 import time
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 from collections import defaultdict
 import numpy as np
 import statistics
@@ -62,7 +62,7 @@ for j in range(len(f_list)):
                 print (row)
                 if len(row)!=1:
                     dc={}
-                    dc['slot_no']=row[0]
+                    dc['slot_no']=int(row[0])
                     dc['tile_name']=row[1]
                     dc['time_stamp']=str(row[2])
                     dc['source']=row[4]

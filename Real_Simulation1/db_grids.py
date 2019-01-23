@@ -43,9 +43,9 @@ class MySeriesHelper(SeriesHelper):
 
         autocommit = True
 
-q2 = 'select m_id from prDB1'
+q2 = 'select m_id from sDB1'
 req = myclient.query(q2)
-req = list(req.get_points(measurement='prDB1'))
+req = list(req.get_points(measurement='sDB1'))
 
 for j in range(len(req)):
     cur_file = req[j]['m_id'].strip()
@@ -54,7 +54,7 @@ for j in range(len(req)):
     rt = myclient.query(q3)
     rt = list(rt.get_points(measurement='gen1'))
     if len(rt)!=0:
-        cur_tile = rt[0]['tile_name'].strip()
+        cur_tile = rt[0]['tile_name']
         ll=[0]*6
         if cur_tile not in file_dict:
             file_dict[cur_tile]=ll

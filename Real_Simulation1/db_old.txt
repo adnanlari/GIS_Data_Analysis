@@ -1,0 +1,11 @@
+Tile_name :48949_28614Video= 4Audio = 0map= 45image = 47Diff = 0Text = 34
+Tile_name :48948_28614Video= 3Audio = 0map= 22image = 17Diff = 0Text = 22
+Tile_name :48947_28614Video= 0Audio = 0map= 1image = 58Diff = 0Text = 26
+Tile_name :48950_28611Video= 0Audio = 0map= 4image = 5Diff = 0Text = 0
+Tile_name :48949_28609Video= 0Audio = 0map= 1image = 3Diff = 0Text = 0
+Tile_name :48951_28612Video= 0Audio = 0map= 1image = 0Diff = 0Text = 0
+Tile_name :48952_28613Video= 0Audio = 0map= 1image = 0Diff = 0Text = 0
+Tile_name :48952_28614Video= 0Audio = 0map= 1image = 1Diff = 0Text = 0
+Tile_name :48950_28612Video= 0Audio = 0map= 3image = 1Diff = 0Text = 0
+Tile_name :48951_28613Video= 0Audio = 0map= 2image = 1Diff = 0Text = 0
+Tile_name :48947_28613Video= 0Audio = 0map= 1image = 10Diff = 0Text = 5
