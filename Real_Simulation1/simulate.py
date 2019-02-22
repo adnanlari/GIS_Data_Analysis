@@ -5,7 +5,7 @@ import json
 from dateutil import parser
 import os
 import time
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 from collections import defaultdict
 import numpy as np
 import statistics
@@ -50,6 +50,7 @@ fld.append('m_id')
 fld.append('m_type')
 fld.append('size')
 fld.append('tile')
+fld.append('sn')
 print (fld)
 if logread is not None:
 	for row in logread:
@@ -91,6 +92,7 @@ if logread is not None:
 											dc['m_type']=rs[3]
 											dc['size']=int(rs[7])
 											dc['tile']=rs[1]
+											dc['sn']=rs[0]
 											MySeriesHelper(**dc)
 											print("Entered in DB  gen",rs[6],avail_time)
 										else:
@@ -129,6 +131,7 @@ if logread is not None:
 											dc['m_type']=rs[3]
 											dc['size']=int(rs[7])
 											dc['tile']=""
+											dc['sn']=rs[0]
 											MySeriesHelper(**dc)
 											print("Entered in DB  col",rs[2],avail_time)
 										else:
